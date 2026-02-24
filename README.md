@@ -220,14 +220,16 @@ else:
 
 ## Creating Python scripts
 
-Python scripts are very similar to bash scripts, with two minor differences:
+Python scripts are very similar to bash scripts:
 
-- First, create a plain text file. For python scripts, use the file extension __.py__ when saving this file. (We used __.sh__ for bash scripts.)
-- Next, add a line at the top of the file to tell your computer that this script contains Python code. The most general way to write this line is: __#!/usr/bin/env python3__
-- To be able to execute this script on its own, we still need to give it _execute_ permissions. As with bash scripts, the command to do this is: __chmod +x myPythScript.py__.
+- First, create a plain text file. For python scripts, use the file extension `.py` when saving this file. (We used `.sh` for bash scripts.)
+- Next, add a line at the top of the file to tell your computer that this script contains Python code. The most general way to write this line is: `#!/usr/bin/env python3`
+- To be able to execute this script on its own, we still need to give it _execute_ permissions. As with bash scripts, the command to do this is: `chmod +x myPythScript.py`.
+
+## In-Class Practice Exercise
 
 ```
-In-Class Practice Exercise (Characterizing Sequences)
+ Characterizing Sequences
 
 (1) Copy the sequences available in this repository.
 
